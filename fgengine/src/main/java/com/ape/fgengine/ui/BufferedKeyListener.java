@@ -1,4 +1,4 @@
-package com.ape.fgengine.graphics;
+package com.ape.fgengine.ui;
 
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
@@ -9,7 +9,7 @@ import com.ape.fgengine.Logger;
 public class BufferedKeyListener implements KeyListener {
 	
 	private static final int BUFFER_CAPACITY = 60;
-	
+
 	private static LinkedList<Integer> inputBuffer = new LinkedList<Integer>();
 	
 	public LinkedList<Integer> getInputBufferSnapshot() {
@@ -31,7 +31,7 @@ public class BufferedKeyListener implements KeyListener {
 	@Override
 	public void keyPressed(KeyEvent e) {
 		addToBuffer(e);
-		Logger.log("KeyPressed:" + e.getKeyCode(), Logger.INFO);
+		Logger.log("KeyPressed:" + e.getKeyChar(), Logger.INFO);
 	}
 
 	@Override

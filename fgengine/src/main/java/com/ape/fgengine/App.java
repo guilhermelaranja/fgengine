@@ -14,8 +14,8 @@ import javax.swing.JFrame;
 
 import com.ape.fgengine.domain.Doll;
 import com.ape.fgengine.domain.Move;
-import com.ape.fgengine.graphics.BufferedKeyListener;
-import com.ape.fgengine.graphics.MainFrame;
+import com.ape.fgengine.ui.BufferedKeyListener;
+import com.ape.fgengine.ui.MainFrame;
 import com.sun.jmx.remote.internal.ArrayQueue;
 
 /**

@@ -1,10 +1,13 @@
 package com.ape.fgengine.domain;
 
+import java.util.List;
+
 public class Move {
 	
 	private String name;
 	private int currentFrame;
 	private int durationFrames;
+	private List<Frame> frames;
 
 	public Move(String name) {
 		super();
