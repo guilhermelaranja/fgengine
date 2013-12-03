@@ -1,0 +1,8 @@
+Tratar input direcional de acordo com press e release (ex.: downback, upforward e etc);
+
+Teste unitário:
+--- Mockar inputs de alguma forma;
+--- Testar execução de golpe;
+
+De alguma forma impedir que um comando seja executado mais de uma vez sem remove-lo do buffer. (maybe calculando que o movimento ja foi executado nos inputs de botao);
+
