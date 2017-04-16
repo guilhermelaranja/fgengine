@@ -10,15 +10,13 @@ public class BufferedKeyListener implements KeyListener {
 	
 	private static final int BUFFER_CAPACITY = 60;
 
-	private static LinkedList<Integer> inputBuffer = new LinkedList<Integer>();
+	private static LinkedList<Integer> inputBuffer = new LinkedList<>();
 	
-	public LinkedList<Integer> getInputBufferSnapshot() {
-		LinkedList<Integer> result = new LinkedList<Integer>();
+	LinkedList<Integer> getInputBufferSnapshot() {
+		LinkedList<Integer> result;
 		
 		synchronized(inputBuffer) {
-			for (Integer i : inputBuffer) {
-				result.add(new Integer(i.intValue()));
-			}
+			result = new LinkedList<>(inputBuffer);
 		}
 		
 		return result;
