@@ -1,6 +1,6 @@
 package com.ape.fgengine.domain;
 
-import java.awt.Point;
+import java.awt.*;
 import java.util.List;
 
 public class Doll {

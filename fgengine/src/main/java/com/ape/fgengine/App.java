@@ -1,22 +1,10 @@
 package com.ape.fgengine;
 
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.NoSuchElementException;
-
-import javax.swing.JFrame;
-
 import com.ape.fgengine.domain.Doll;
 import com.ape.fgengine.domain.Move;
-import com.ape.fgengine.ui.BufferedKeyListener;
 import com.ape.fgengine.ui.MainFrame;
-import com.sun.jmx.remote.internal.ArrayQueue;
+
+import java.util.*;
 
 /**
  * Hello world!

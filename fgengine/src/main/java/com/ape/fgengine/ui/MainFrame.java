@@ -1,8 +1,7 @@
 package com.ape.fgengine.ui;
 
+import javax.swing.*;
 import java.util.LinkedList;
-
-import javax.swing.JFrame;
 
 public class MainFrame extends JFrame {
 

@@ -1,10 +1,10 @@
 package com.ape.fgengine.ui;
 
+import com.ape.fgengine.Logger;
+
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.util.LinkedList;
-
-import com.ape.fgengine.Logger;
 
 public class BufferedKeyListener implements KeyListener {
 	
