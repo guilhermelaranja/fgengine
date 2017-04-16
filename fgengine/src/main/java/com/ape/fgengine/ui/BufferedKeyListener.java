@@ -31,13 +31,13 @@ public class BufferedKeyListener implements KeyListener {
 	@Override
 	public void keyPressed(KeyEvent e) {
 		addToBuffer(e);
-		Logger.log("KeyPressed:" + e.getKeyChar(), Logger.INFO);
+		Logger.log("KeyPressed: " + e.getKeyChar() + " code " + e.getKeyCode(), Logger.INFO);
 	}
 
 	@Override
 	public void keyReleased(KeyEvent e) {
 		addToBuffer(e);
-		Logger.log("KeyReleased:" + e.getKeyChar(), Logger.INFO);
+		Logger.log("KeyReleased:" + e.getKeyChar() + " code " + e.getKeyCode(), Logger.INFO);
 	}
 
 	@Override
